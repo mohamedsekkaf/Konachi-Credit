@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "408641674324",
+    "project_id": "project-konachi-kotlin",
+    "storage_bucket": "project-konachi-kotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408641674324:android:cb1578858599fd8c3c21c1",
+        "android_client_info": {
+          "package_name": "com.example.app_konachi_kotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408641674324-abob8kc2udtvu7d9g0qiaj4bofe9ajv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLa2OxD0blUODZkcwUjTWt5tdlxENbSE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408641674324-abob8kc2udtvu7d9g0qiaj4bofe9ajv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408641674324:android:874ffd7e642f1e233c21c1",
+        "android_client_info": {
+          "package_name": "com.project_konachi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408641674324-abob8kc2udtvu7d9g0qiaj4bofe9ajv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLa2OxD0blUODZkcwUjTWt5tdlxENbSE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408641674324-abob8kc2udtvu7d9g0qiaj4bofe9ajv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

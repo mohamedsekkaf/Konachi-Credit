@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FF097B</color>
+    <color name="purple_500">#F80B55</color>
+    <color name="purple_700">#C81145</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="red">#f9a19a</color>
+    <color name="verre">#8ecc72</color>
+    <color name="almostBlack">#222</color>
+    <color name="orange">#FF8c00</color>
+
+    <color name="_bg__register_ek2_color">#F3F2F2</color>
+    <color name="rectangle_3_color">#5EE2FF</color>
+    <color name="register_ek3_color">#FFFBFB</color>
+    <color name="rectangle_4_color">#FFFDFD</color>
+    <color name="register_ek4_color">#000000</color>
+    <color name="enter_ful_name_color">#837979</color>
+
+    your_color
+</resources>

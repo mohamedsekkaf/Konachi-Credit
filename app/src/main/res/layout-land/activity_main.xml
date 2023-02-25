@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="380dp"
+        android:layout_height="346dp"
+        android:layout_marginTop="204dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gave2"
+        tools:ignore="MissingConstraints">
+
+        <!-- Your existing layout here -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scroll"
+            tools:itemCount="5"
+            tools:listitem="@layout/main_laout" />
+
+    </ScrollView>
+
+    <View
+        android:id="@+id/ellipse_1"
+        android:layout_width="419dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="4dp"
+        android:background="@drawable/navbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/ellipse_4"
+        android:layout_width="419dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/navbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-129dp" />
+
+    <ImageView
+        android:id="@+id/logout"
+        android:layout_width="47dp"
+        android:layout_height="62dp"
+        android:src="@drawable/ic_baseline_logout_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-2dp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customers"
+        android:textColor="#48AFF4"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="240dp"
+        app:layout_constraintBottom_toTopOf="@+id/scroll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ellipse_4"
+        app:layout_constraintVertical_bias="0.97" />
+
+    <TextView
+        android:id="@+id/got"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:text="i got"
+        android:textColor="#AD858484"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ellipse_1" />
+
+    <TextView
+        android:id="@+id/amount_total_got"
+        android:layout_width="123dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="112dp"
+        android:gravity="center"
+        android:text="000000000"
+        android:textColor="#C946F357"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.784"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ellipse_1" />
+
+    <TextView
+        android:id="@+id/got2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:text="dh"
+        android:textColor="#C946F357"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toEndOf="@+id/got"
+        app:layout_constraintTop_toBottomOf="@+id/ellipse_1" />
+
+    <View
+        android:id="@+id/line_1"
+        android:layout_width="2dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/line_1"
+        app:layout_constraintEnd_toStartOf="@+id/got"
+        app:layout_constraintHorizontal_bias="0.767"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ellipse_1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/amount_total_gave"
+        android:layout_width="127dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="112dp"
+        android:gravity="center"
+        android:text="000000000"
+        android:textColor="#ADF32727"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ellipse_4" />
+
+    <TextView
+        android:id="@+id/gave3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:text="i gave"
+        android:textColor="#AD858484"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ellipse_4" />
+
+    <TextView
+        android:id="@+id/got3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="All Balances Of Creditors"
+        android:textColor="#48AFF4"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ellipse_1" />
+
+
+    <TextView
+        android:id="@+id/gave2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:text="dh"
+        android:textColor="#ADF32727"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toEndOf="@+id/amount_total_gave"
+        app:layout_constraintTop_toBottomOf="@+id/ellipse_4" />
+
+    <EditText
+        android:id="@+id/searchinput"
+        android:layout_width="229dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/ellipse_3"
+        android:elevation="4dp"
+        android:ems="15"
+        android:gravity="center"
+        android:hint="Enter Name"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/scroll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="134dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#0080ff"
+        android:ems="40"
+        android:gravity="center"
+        android:text="Search"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toEndOf="@+id/searchinput"
+        app:layout_constraintTop_toBottomOf="@+id/amount_total_got"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="303dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#0080ff"
+        android:ems="40"
+        android:gravity="center"
+        android:text="Add Creditor"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scroll"
+        app:layout_constraintVertical_bias="0.975"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
